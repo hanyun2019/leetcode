@@ -33,5 +33,7 @@ public class solution {
         solution result = new solution();
         int[] a = result.twoSum(nums, target);
         System.out.println(Arrays.toString(a));
+        System.out.println(nums[a[0]]);
+        System.out.println(nums[a[1]]);
      }
 }
